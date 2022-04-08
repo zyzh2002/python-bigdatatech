@@ -1,6 +1,3 @@
-from numpy import outer
-
-
 def printInFormat(lst: list, inf: str) -> None:
     print(inf)
     for i in lst:
