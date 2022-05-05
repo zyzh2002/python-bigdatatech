@@ -5,6 +5,6 @@ def f(n):
             sum += i
     return sum==n
 
-for i in range(1,1000):
+for i in range(1,1001):
     if f(i) == True:
         print(i)
