@@ -1,4 +1,4 @@
-#import csv
+# basic csv file operation without csv module
 csvData = []
 with open("stu-scores.csv", "r") as csvFile:
     for i in csvFile:
