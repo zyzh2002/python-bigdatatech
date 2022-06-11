@@ -1,4 +1,3 @@
-#import csv
 csvData = []
 with open("stu-scores.csv", "r") as csvFile:
     for i in csvFile:
